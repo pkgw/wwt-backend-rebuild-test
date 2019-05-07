@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{53EB6FD6-9D50-45D4-9987-328A7AE53E2C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Backend</RootNamespace>
+    <AssemblyName>Backend</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="2MASSOct.aspx" />
+    <Content Include="BingDemTile.aspx" />
+    <Content Include="BingDemTile2.aspx" />
+    <Content Include="Catalog.aspx" />
+    <Content Include="Catalog2.aspx" />
+    <Content Include="dem.aspx" />
+    <Content Include="dembath.aspx" />
+    <Content Include="demmars.aspx" />
+    <Content Include="demmarsEmpty.aspx" />
+    <Content Include="demmars_new.aspx" />
+    <Content Include="demTile.aspx" />
+    <Content Include="DSS.aspx" />
+    <Content Include="DSSToast.aspx" />
+    <Content Include="DustToast.aspx" />
+    <Content Include="EarthBlend.aspx" />
+    <Content Include="EarthMerBath.aspx" />
+    <Content Include="ExcelAddinUpdate.aspx" />
+    <Content Include="FixedAltitudeDemTile.aspx" />
+    <Content Include="g360.aspx" />
+    <Content Include="Galex4Far.aspx" />
+    <Content Include="Galex4Near.aspx" />
+    <Content Include="GalexToast.aspx" />
+    <Content Include="GetAuthorThumbnail.aspx" />
+    <Content Include="GetHostName.aspx" />
+    <Content Include="GetTile.aspx" />
+    <Content Include="GetTour.aspx" />
+    <Content Include="GetTourFile.aspx" />
+    <Content Include="GetTourList.aspx" />
+    <Content Include="GetTours.aspx" />
+    <Content Include="GetTourThumbnail.aspx" />
+    <Content Include="Glimpse.aspx" />
+    <Content Include="Goto.aspx" />
+    <Content Include="Goto2.aspx" />
+    <Content Include="hAlphaToast.aspx" />
+    <Content Include="Hirise.aspx" />
+    <Content Include="HiriseDem.aspx" />
+    <Content Include="HiriseDem2.aspx" />
+    <Content Include="HiriseDem3.aspx" />
+    <Content Include="isstle.aspx" />
+    <Content Include="isstle2.aspx" />
+    <Content Include="jupiter.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="Mandel.aspx" />
+    <Content Include="mandel1.aspx" />
+    <Content Include="mars.aspx" />
+    <Content Include="marsdem.aspx" />
+    <Content Include="MarsHirise.aspx" />
+    <Content Include="MarsMoc.aspx" />
+    <Content Include="MartianTile.aspx" />
+    <Content Include="MartianTile2.aspx" />
+    <Content Include="MartianTileEmpty.aspx" />
+    <Content Include="MartianTileNew.aspx" />
+    <Content Include="Mipsgal.aspx" />
+    <Content Include="moondem.aspx" />
+    <Content Include="moonOct.aspx" />
+    <Content Include="moontoast.aspx" />
+    <Content Include="moontoastdem.aspx" />
+    <Content Include="postmars.aspx" />
+    <Content Include="postmarsdem.aspx" />
+    <Content Include="postmarsdem2.aspx" />
+    <Content Include="PostRatingFeedback.aspx" />
+    <Content Include="RassToast.aspx" />
+    <Content Include="SDSSToast.aspx" />
+    <Content Include="SDSSToast.offline.aspx" />
+    <Content Include="SDSSToast2.aspx" />
+    <Content Include="ShowImage.aspx" />
+    <Content Include="ShowImage2.aspx" />
+    <Content Include="StarChart.aspx" />
+    <Content Include="test.aspx" />
+    <Content Include="testfailover.aspx" />
+    <Content Include="thumbnail.aspx" />
+    <Content Include="TileImage.aspx" />
+    <Content Include="tiles.aspx" />
+    <Content Include="tiles2.aspx" />
+    <Content Include="tilethumb.aspx" />
+    <Content Include="TwoMassToast.aspx" />
+    <Content Include="TychoOct.aspx" />
+    <Content Include="veblend.aspx" />
+    <Content Include="version.aspx" />
+    <Content Include="versions.aspx" />
+    <Content Include="vlssToast.aspx" />
+    <Content Include="weblogin.aspx" />
+    <Content Include="WebServiceProxy.aspx" />
+    <Content Include="wmap.aspx" />
+    <Content Include="WMSEarthToday.aspx" />
+    <Content Include="WMSMoon.aspx" />
+    <Content Include="WMSToast.aspx" />
+    <Content Include="XML2WTT.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="demmars.aspx.cs">
+      <DependentUpon>demmars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="g360.aspx.cs">
+      <DependentUpon>g360.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetTourList.aspx.cs">
+      <DependentUpon>GetTourList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetTours.aspx.cs">
+      <DependentUpon>GetTours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hirise.aspx.cs">
+      <DependentUpon>Hirise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HiriseDem2.aspx.cs">
+      <DependentUpon>HiriseDem2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="isstle.aspx.cs">
+      <DependentUpon>isstle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarsHirise.aspx.cs">
+      <DependentUpon>MarsHirise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarsMoc.aspx.cs">
+      <DependentUpon>MarsMoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostRatingFeedback.aspx.cs">
+      <DependentUpon>PostRatingFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StarChart.aspx.cs">
+      <DependentUpon>StarChart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TileImage.aspx.cs">
+      <DependentUpon>TileImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weblogin.aspx.cs">
+      <DependentUpon>weblogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WMSEarthToday.aspx.cs">
+      <DependentUpon>WMSEarthToday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WMSMoon.aspx.cs">
+      <DependentUpon>WMSMoon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WMSToast.aspx.cs">
+      <DependentUpon>WMSToast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XML2WTT.aspx.cs">
+      <DependentUpon>XML2WTT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WWTWebservices\WWTWebservices.csproj">
+      <Project>{1cf4d986-51ad-43f8-a84a-38b6ecba2172}</Project>
+      <Name>WWTWebservices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4675</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4675/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
