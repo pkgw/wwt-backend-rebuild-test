@@ -50,168 +50,94 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="2MASSOct.aspx" />
-    <Content Include="BingDemTile.aspx" />
-    <Content Include="BingDemTile2.aspx" />
-    <Content Include="Catalog.aspx" />
-    <Content Include="Catalog2.aspx" />
-    <Content Include="dem.aspx" />
-    <Content Include="dembath.aspx" />
-    <Content Include="demmars.aspx" />
-    <Content Include="demmarsEmpty.aspx" />
-    <Content Include="demmars_new.aspx" />
-    <Content Include="demTile.aspx" />
-    <Content Include="DSS.aspx" />
-    <Content Include="DSSToast.aspx" />
-    <Content Include="DustToast.aspx" />
-    <Content Include="EarthBlend.aspx" />
-    <Content Include="EarthMerBath.aspx" />
-    <Content Include="ExcelAddinUpdate.aspx" />
-    <Content Include="FixedAltitudeDemTile.aspx" />
-    <Content Include="g360.aspx" />
-    <Content Include="Galex4Far.aspx" />
-    <Content Include="Galex4Near.aspx" />
-    <Content Include="GalexToast.aspx" />
-    <Content Include="GetAuthorThumbnail.aspx" />
-    <Content Include="GetHostName.aspx" />
-    <Content Include="GetTile.aspx" />
-    <Content Include="GetTour.aspx" />
-    <Content Include="GetTourFile.aspx" />
-    <Content Include="GetTourList.aspx" />
-    <Content Include="GetTours.aspx" />
-    <Content Include="GetTourThumbnail.aspx" />
-    <Content Include="Glimpse.aspx" />
-    <Content Include="Goto.aspx" />
-    <Content Include="Goto2.aspx" />
-    <Content Include="hAlphaToast.aspx" />
-    <Content Include="Hirise.aspx" />
-    <Content Include="HiriseDem.aspx" />
-    <Content Include="HiriseDem2.aspx" />
-    <Content Include="HiriseDem3.aspx" />
-    <Content Include="isstle.aspx" />
-    <Content Include="isstle2.aspx" />
-    <Content Include="jupiter.aspx" />
-    <Content Include="login.aspx" />
-    <Content Include="Mandel.aspx" />
-    <Content Include="mandel1.aspx" />
-    <Content Include="mars.aspx" />
-    <Content Include="marsdem.aspx" />
-    <Content Include="MarsHirise.aspx" />
-    <Content Include="MarsMoc.aspx" />
-    <Content Include="MartianTile.aspx" />
-    <Content Include="MartianTile2.aspx" />
-    <Content Include="MartianTileEmpty.aspx" />
-    <Content Include="MartianTileNew.aspx" />
-    <Content Include="Mipsgal.aspx" />
-    <Content Include="moondem.aspx" />
-    <Content Include="moonOct.aspx" />
-    <Content Include="moontoast.aspx" />
-    <Content Include="moontoastdem.aspx" />
-    <Content Include="postmars.aspx" />
-    <Content Include="postmarsdem.aspx" />
-    <Content Include="postmarsdem2.aspx" />
-    <Content Include="PostRatingFeedback.aspx" />
-    <Content Include="RassToast.aspx" />
-    <Content Include="SDSSToast.aspx" />
-    <Content Include="SDSSToast.offline.aspx" />
-    <Content Include="SDSSToast2.aspx" />
-    <Content Include="ShowImage.aspx" />
-    <Content Include="ShowImage2.aspx" />
-    <Content Include="StarChart.aspx" />
-    <Content Include="test.aspx" />
-    <Content Include="testfailover.aspx" />
-    <Content Include="thumbnail.aspx" />
-    <Content Include="TileImage.aspx" />
-    <Content Include="tiles.aspx" />
-    <Content Include="tiles2.aspx" />
-    <Content Include="tilethumb.aspx" />
-    <Content Include="TwoMassToast.aspx" />
-    <Content Include="TychoOct.aspx" />
-    <Content Include="veblend.aspx" />
-    <Content Include="version.aspx" />
-    <Content Include="versions.aspx" />
-    <Content Include="vlssToast.aspx" />
-    <Content Include="weblogin.aspx" />
-    <Content Include="WebServiceProxy.aspx" />
-    <Content Include="wmap.aspx" />
-    <Content Include="WMSEarthToday.aspx" />
-    <Content Include="WMSMoon.aspx" />
-    <Content Include="WMSToast.aspx" />
-    <Content Include="XML2WTT.aspx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="demmars.aspx.cs">
-      <DependentUpon>demmars.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="g360.aspx.cs">
-      <DependentUpon>g360.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GetTourList.aspx.cs">
-      <DependentUpon>GetTourList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GetTours.aspx.cs">
-      <DependentUpon>GetTours.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Hirise.aspx.cs">
-      <DependentUpon>Hirise.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="HiriseDem2.aspx.cs">
-      <DependentUpon>HiriseDem2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="isstle.aspx.cs">
-      <DependentUpon>isstle.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MarsHirise.aspx.cs">
-      <DependentUpon>MarsHirise.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MarsMoc.aspx.cs">
-      <DependentUpon>MarsMoc.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PostRatingFeedback.aspx.cs">
-      <DependentUpon>PostRatingFeedback.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="StarChart.aspx.cs">
-      <DependentUpon>StarChart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TileImage.aspx.cs">
-      <DependentUpon>TileImage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="weblogin.aspx.cs">
-      <DependentUpon>weblogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WMSEarthToday.aspx.cs">
-      <DependentUpon>WMSEarthToday.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WMSMoon.aspx.cs">
-      <DependentUpon>WMSMoon.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WMSToast.aspx.cs">
-      <DependentUpon>WMSToast.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="XML2WTT.aspx.cs">
-      <DependentUpon>XML2WTT.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
+    <Content Include="WWTWeb\2MASSOct.aspx" />
+    <Content Include="WWTWeb\BingDemTile.aspx" />
+    <Content Include="WWTWeb\BingDemTile2.aspx" />
+    <Content Include="WWTWeb\Catalog.aspx" />
+    <Content Include="WWTWeb\Catalog2.aspx" />
+    <Content Include="WWTWeb\dem.aspx" />
+    <Content Include="WWTWeb\dembath.aspx" />
+    <Content Include="WWTWeb\demmars.aspx" />
+    <Content Include="WWTWeb\demmarsEmpty.aspx" />
+    <Content Include="WWTWeb\demmars_new.aspx" />
+    <Content Include="WWTWeb\demTile.aspx" />
+    <Content Include="WWTWeb\DSS.aspx" />
+    <Content Include="WWTWeb\DSSToast.aspx" />
+    <Content Include="WWTWeb\DustToast.aspx" />
+    <Content Include="WWTWeb\EarthBlend.aspx" />
+    <Content Include="WWTWeb\EarthMerBath.aspx" />
+    <Content Include="WWTWeb\ExcelAddinUpdate.aspx" />
+    <Content Include="WWTWeb\FixedAltitudeDemTile.aspx" />
+    <Content Include="WWTWeb\g360.aspx" />
+    <Content Include="WWTWeb\Galex4Far.aspx" />
+    <Content Include="WWTWeb\Galex4Near.aspx" />
+    <Content Include="WWTWeb\GalexToast.aspx" />
+    <Content Include="WWTWeb\GetAuthorThumbnail.aspx" />
+    <Content Include="WWTWeb\GetHostName.aspx" />
+    <Content Include="WWTWeb\GetTile.aspx" />
+    <Content Include="WWTWeb\GetTour.aspx" />
+    <Content Include="WWTWeb\GetTourFile.aspx" />
+    <Content Include="WWTWeb\GetTourList.aspx" />
+    <Content Include="WWTWeb\GetTours.aspx" />
+    <Content Include="WWTWeb\GetTourThumbnail.aspx" />
+    <Content Include="WWTWeb\Glimpse.aspx" />
+    <Content Include="WWTWeb\Goto.aspx" />
+    <Content Include="WWTWeb\Goto2.aspx" />
+    <Content Include="WWTWeb\hAlphaToast.aspx" />
+    <Content Include="WWTWeb\Hirise.aspx" />
+    <Content Include="WWTWeb\HiriseDem.aspx" />
+    <Content Include="WWTWeb\HiriseDem2.aspx" />
+    <Content Include="WWTWeb\HiriseDem3.aspx" />
+    <Content Include="WWTWeb\isstle.aspx" />
+    <Content Include="WWTWeb\isstle2.aspx" />
+    <Content Include="WWTWeb\jupiter.aspx" />
+    <Content Include="WWTWeb\login.aspx" />
+    <Content Include="WWTWeb\Mandel.aspx" />
+    <Content Include="WWTWeb\mandel1.aspx" />
+    <Content Include="WWTWeb\mars.aspx" />
+    <Content Include="WWTWeb\marsdem.aspx" />
+    <Content Include="WWTWeb\MarsHirise.aspx" />
+    <Content Include="WWTWeb\MarsMoc.aspx" />
+    <Content Include="WWTWeb\MartianTile.aspx" />
+    <Content Include="WWTWeb\MartianTile2.aspx" />
+    <Content Include="WWTWeb\MartianTileEmpty.aspx" />
+    <Content Include="WWTWeb\MartianTileNew.aspx" />
+    <Content Include="WWTWeb\Mipsgal.aspx" />
+    <Content Include="WWTWeb\moondem.aspx" />
+    <Content Include="WWTWeb\moonOct.aspx" />
+    <Content Include="WWTWeb\moontoast.aspx" />
+    <Content Include="WWTWeb\moontoastdem.aspx" />
+    <Content Include="WWTWeb\postmars.aspx" />
+    <Content Include="WWTWeb\postmarsdem.aspx" />
+    <Content Include="WWTWeb\postmarsdem2.aspx" />
+    <Content Include="WWTWeb\PostRatingFeedback.aspx" />
+    <Content Include="WWTWeb\RassToast.aspx" />
+    <Content Include="WWTWeb\SDSSToast.aspx" />
+    <Content Include="WWTWeb\SDSSToast.offline.aspx" />
+    <Content Include="WWTWeb\SDSSToast2.aspx" />
+    <Content Include="WWTWeb\ShowImage.aspx" />
+    <Content Include="WWTWeb\ShowImage2.aspx" />
+    <Content Include="WWTWeb\StarChart.aspx" />
+    <Content Include="WWTWeb\test.aspx" />
+    <Content Include="WWTWeb\testfailover.aspx" />
+    <Content Include="WWTWeb\thumbnail.aspx" />
+    <Content Include="WWTWeb\TileImage.aspx" />
+    <Content Include="WWTWeb\tiles.aspx" />
+    <Content Include="WWTWeb\tiles2.aspx" />
+    <Content Include="WWTWeb\tilethumb.aspx" />
+    <Content Include="WWTWeb\TwoMassToast.aspx" />
+    <Content Include="WWTWeb\TychoOct.aspx" />
+    <Content Include="WWTWeb\veblend.aspx" />
+    <Content Include="WWTWeb\version.aspx" />
+    <Content Include="WWTWeb\versions.aspx" />
+    <Content Include="WWTWeb\vlssToast.aspx" />
+    <Content Include="WWTWeb\weblogin.aspx" />
+    <Content Include="WWTWeb\WebServiceProxy.aspx" />
+    <Content Include="WWTWeb\wmap.aspx" />
+    <Content Include="WWTWeb\WMSEarthToday.aspx" />
+    <Content Include="WWTWeb\WMSMoon.aspx" />
+    <Content Include="WWTWeb\WMSToast.aspx" />
+    <Content Include="WWTWeb\XML2WTT.aspx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WWTWebservices\WWTWebservices.csproj">
@@ -226,6 +152,84 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WWTBackendTestA - Web Deploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="WWTWeb\demmars.aspx.cs">
+      <DependentUpon>demmars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\g360.aspx.cs">
+      <DependentUpon>g360.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\GetTourList.aspx.cs">
+      <DependentUpon>GetTourList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\GetTours.aspx.cs">
+      <DependentUpon>GetTours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\Hirise.aspx.cs">
+      <DependentUpon>Hirise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\HiriseDem2.aspx.cs">
+      <DependentUpon>HiriseDem2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\isstle.aspx.cs">
+      <DependentUpon>isstle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\MarsHirise.aspx.cs">
+      <DependentUpon>MarsHirise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\MarsMoc.aspx.cs">
+      <DependentUpon>MarsMoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\PostRatingFeedback.aspx.cs">
+      <DependentUpon>PostRatingFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\StarChart.aspx.cs">
+      <DependentUpon>StarChart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\TileImage.aspx.cs">
+      <DependentUpon>TileImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\weblogin.aspx.cs">
+      <DependentUpon>weblogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\WMSEarthToday.aspx.cs">
+      <DependentUpon>WMSEarthToday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\WMSMoon.aspx.cs">
+      <DependentUpon>WMSMoon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\WMSToast.aspx.cs">
+      <DependentUpon>WMSToast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WWTWeb\XML2WTT.aspx.cs">
+      <DependentUpon>XML2WTT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
